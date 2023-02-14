@@ -1,0 +1,17 @@
+{
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@jessiesiat/hello-gh-packages": "^1.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "workspaces": [
+    "packages\\a"
+  ]
+}
